@@ -4,7 +4,6 @@ import guru.springframework.api.v1.model.VendorDTO;
 import guru.springframework.api.v1.model.VendorListDTO;
 import org.springframework.stereotype.Service;
 
-@Service
 public interface VendorService {
 
     VendorDTO getVendorById(Long id);

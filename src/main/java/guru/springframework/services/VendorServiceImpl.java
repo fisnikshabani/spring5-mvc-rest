@@ -6,10 +6,12 @@ import guru.springframework.api.v1.model.VendorListDTO;
 import guru.springframework.controllers.v1.VendorController;
 import guru.springframework.domain.Vendor;
 import guru.springframework.repositories.VendorRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Service
 public class VendorServiceImpl implements VendorService{
 
     private final VendorMapper vendorMapper;
